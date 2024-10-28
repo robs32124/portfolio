@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include Chart.js from CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Admin Dashboard</h2>
+        <ul>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Logout</a></li>
+        </ul>
+    </div>
+    
+    <div class="main-content">
+        <h1>Sales Report</h1>
+        <!-- Grafik batang -->
+        <canvas id="myChart"></canvas>
+        
+        <!-- Tabel Penjualan -->
+        <h2>Sales Data</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>No</th>
+                    <th>Month</th>
+                    <th>Sales (USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>January</td>
+                    <td>$12,000</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>February</td>
+                    <td>$19,000</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>March</td>
+                    <td>$3,000</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>April</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>May</td>
+                    <td>$20,000</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>June</td>
+                    <td>$30,000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

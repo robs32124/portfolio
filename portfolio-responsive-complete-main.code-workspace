@@ -1,0 +1,15 @@
+{
+	"folders": [
+		{
+			"name": "portfolio-responsive-complete-main",
+			"path": "."
+		},
+		{
+			"name": "formlogin",
+			"path": "../formlogin1/formlogin"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "formlogin"
+	}
+}
